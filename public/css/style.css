@@ -2,10 +2,43 @@
 
 
 /* ---------- COLORS ---------- */
-
+/* Purple: #6816D8 */
+/* Black: #2d2d2d */
+/* Dark Grey: #eae9e4 */
+/* Light Grey: #f3f2ed */
 
 /* ---------- GENERAL ---------- */
 * {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  display: none;
+}
+
+h2, h3 {
+  font-family: 'utopia-std-headline', serif;
+  color: #2d2d2d;
+}
+
+h3 span {
+  color: #6816D8;
+}
+
+h4 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+p {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  color: #2d2d2d;
+}
+
+section {
+  height: 100vh;
+  background-color: #f3f2ed;
 }
