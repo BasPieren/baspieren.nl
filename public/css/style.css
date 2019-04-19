@@ -13,12 +13,25 @@
   padding: 0;
 }
 
+body {
+  background-color: #f3f2ed;
+}
+
 h1 {
   display: none;
 }
 
 h2, h3 {
   font-family: 'utopia-std-headline', serif;
+}
+
+h2 {
+  font-size: 6em;
+  color: #eae9e4;
+}
+
+h3 {
+  font-size: 2em;
   color: #2d2d2d;
 }
 
@@ -26,19 +39,70 @@ h3 span {
   color: #6816D8;
 }
 
-h4 {
+h4, p {
   font-family: 'oswald', sans-serif;
-  font-weight: 700;
   color: #2d2d2d;
+}
+
+h4 {
+  font-size: 1.500em;
+  font-weight: 700;
 }
 
 p {
-  font-family: 'oswald', sans-serif;
   font-weight: 300;
-  color: #2d2d2d;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  z-index: 999;
+}
+
+nav div img {
+  margin: 0.5em 0;
+  width: 10px;
+  height: 10px;
+  opacity: 0.5;
+}
+
+nav div img:first-of-type {
+  margin-top: 0;
+}
+
+nav div img:last-of-type {
+  margin-bottom: 0;
+}
+
+nav img {
+  display: block;
+  margin: 0 0 0 auto;
+  width: 45px;
+  height: 45px;
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 1em;
   height: 100vh;
   background-color: #f3f2ed;
+}
+
+.bp-scroll-indicator {
+  position: absolute;
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  right: 0;
+  bottom: -1.5em;
+  left: 0;
+  z-index: 999;
 }
