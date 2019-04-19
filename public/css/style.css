@@ -98,6 +98,11 @@ section {
   box-sizing: border-box;
 }
 
+.bp-divider {
+  width: 100px;
+  height: auto;
+}
+
 .bp-scroll-indicator {
   position: absolute;
   margin: 0 auto;
@@ -119,8 +124,14 @@ section {
   margin: auto 0 0.75em 0;
 }
 
-#bp-home-section h4 {
-  margin: 0 0 1em 0;
+#bp-home-section div {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3em 0;
+}
+
+#bp-home-section div h4{
+  margin: 0 0 0 1em;
 }
 
 #bp-home-section p {
@@ -142,6 +153,10 @@ section {
 
 #bp-about-section p:nth-of-type(2) {
   margin: 0;
+}
+
+#bp-about-section .bp-divider {
+  margin: 2em 0 auto 0;
 }
 
 .bp-profile-picture {
@@ -167,4 +182,20 @@ section {
 
 #bp-contact-section h3 {
   margin: 4.5em 0 0.75em 0;
+}
+
+#bp-contact-section p {
+  margin: 2em 0 4em 0;
+}
+
+#bp-contact-section .bp-divider {
+  margin: 0 0 2em 0;
+}
+
+#bp-contact-section ul {
+  margin: 0 0 auto 0;
+  font-family: 'oswald', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  list-style-type: none;
 }
