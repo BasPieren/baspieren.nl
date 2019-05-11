@@ -1,13 +1,13 @@
 function  homeTypingAni() {
-  var options = {
-    strings: ["Hallo!", "Hello!", "Hola!", "Hei!", "Helo!", "Hej!"],
+  const options = {
+    strings: ["Hallo!", "Bonjour!", "Hello!", "Guten Tag!", "Hola!"],
     smartBackspace: true,
     backSpeed: 100,
+    backDelay: 1000,
     loop: true,
     typeSpeed: 100
-  }
-
-  var typed = new Typed(".pb-greeting-message", options);
+  },
+  typed = new Typed(".pb-greeting-message", options)
 }
 
 export { homeTypingAni }
