@@ -55,13 +55,11 @@ p span {
 }
 
 nav {
-  display: flex;
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: 3.125em 3.125em 0 3.125em;
+  padding: 2.5em 2.5em 0 2.5em;
   z-index: 999;
 }
 
@@ -88,14 +86,23 @@ nav img {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: relative;
-  padding: 0 3.125em;
+  padding: 0 2.5em;
   min-height: 100vh;
   background-color: #f3f2ed;
   box-sizing: border-box;
+}
+
+.flex-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .bp-divider {
@@ -119,23 +126,28 @@ section {
   font-size: 1.5em;
 }
 
+.typed-cursor{
+  display: none;
+}
+
 /* ---------- HOME ---------- */
 #bp-home-section h2 {
-  /* margin: 2em 0 0.75em 0; */
+  margin: auto 0 0.75em 0;
+  min-height: 104px;
 }
 
 #bp-home-section div {
   display: flex;
   align-items: center;
-  /* margin: 0 0 1.5em 0; */
+  margin: 0 0 1.5em 0;
 }
 
 #bp-home-section div h4{
-  /* margin: 0 0 0 1em; */
+  margin: 0 0 0 1em;
 }
 
 #bp-home-section p {
-  /* margin: 3em 0 auto 0; */
+  margin: 3em 0 auto 0;
 }
 
 /* ---------- ABOUT ---------- */
@@ -144,11 +156,11 @@ section {
 }
 
 #bp-about-section h3 {
-  /* margin: 6em 0 1.5em 0; */
+  margin: 6em 0 1.5em 0;
 }
 
 #bp-about-section p {
-  /* margin: 0 0 1em 0; */
+  margin: 0 0 1em 0;
 }
 
 #bp-about-section p:nth-of-type(2) {
@@ -156,7 +168,7 @@ section {
 }
 
 #bp-about-section .bp-divider {
-  /* margin: 3em 0 auto 0; */
+  margin: 3em 0 auto 0;
 }
 
 .bp-profile-picture {
@@ -167,13 +179,13 @@ section {
 }
 
 .bp-profile-picture + p{
-  /* margin: 1em 0 !important; */
+  margin: 1em 0 6em 0!important;
   text-align: center;
 }
 
 /* ---------- WORK ---------- */
 #bp-work-section h3 {
-  /* margin: 4.5em 0 0.75em 0; */
+  margin: 6em 0 1.5em 0;
 }
 
 /* ---------- CONTACT ---------- */
@@ -182,19 +194,19 @@ section {
 }
 
 #bp-contact-section h3 {
-  /* margin: 6em 0 2em 0; */
+  margin: 6em 0 1.5em 0;
 }
 
 #bp-contact-section p {
-  /* margin: 0 0 4em 0; */
+  margin: 0 0 3em 0;
 }
 
 #bp-contact-section .bp-divider {
-  /* margin: 0 0 2em 0; */
+  margin: 0 0 3em 0;
 }
 
 #bp-contact-section ul {
-  /* margin: 0 0 auto 0; */
+  margin: 0 0 auto 0;
   font-family: 'oswald', sans-serif;
   font-size: 1.5em;
   font-weight: 700;
