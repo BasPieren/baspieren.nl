@@ -28,7 +28,7 @@ h2 {
 
 h3 {
   margin: 6em 0 1.5em 0;
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #2d2d2d;
 }
 
@@ -42,17 +42,22 @@ h4, p {
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 p {
+  font-size: 1.1em;
   font-weight: 300;
 }
 
 p span {
   font-weight: 400;
+}
+
+a {
+  color: #6816D8;
 }
 
 section {
@@ -116,6 +121,7 @@ nav div i {
   margin: 0.5em 0;
   font-size: 0.7em;
   opacity: 0.5;
+  transition: 0.5s;
 }
 
 nav div i:first-of-type {
@@ -133,7 +139,7 @@ nav div i:last-of-type {
 
 /* ---------- HOME ---------- */
 #bp-home-section h2 {
-  margin: auto 0 0.75em 0;
+  margin: 2.1em 0 0.25em 0;
   min-height: 104px;
 }
 
@@ -152,7 +158,25 @@ nav div i:last-of-type {
 }
 
 #bp-home-section p {
-  margin: 3em 0 auto 0;
+  margin: 3em 0 1.5em 0;
+}
+
+#bp-home-section div:last-of-type {
+  margin: 0 0 auto 0;
+  width: fit-content;
+  font-size: 2.5em;
+}
+
+#bp-home-section div:last-of-type a{
+  margin: 0 0.25em;
+}
+
+#bp-home-section div:last-of-type a:first-of-type{
+  margin-left: 0;
+}
+
+#bp-home-section div:last-of-type a:last-of-type{
+  margin-right: 0;
 }
 
 /* ---------- ABOUT ---------- */
