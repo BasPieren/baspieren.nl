@@ -1,0 +1,19 @@
+#bp-contact-section {
+  background-color: #ffffff;
+}
+
+#bp-contact-section p {
+  margin: 0 0 3em 0;
+}
+
+#bp-contact-section .bp-divider {
+  margin: 0 0 3em 0;
+}
+
+#bp-contact-section ul {
+  margin: 0 0 auto 0;
+  font-family: 'oswald', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  list-style-type: none;
+}
