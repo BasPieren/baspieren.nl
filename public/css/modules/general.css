@@ -14,6 +14,7 @@ h1 {
 }
 
 h2 {
+  font-size: 3.5em;
   font-weight: 400;
 }
 
@@ -27,23 +28,25 @@ h4 {
 }
 
 p {
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0.75em 0;
   color: var(--white);
   font-size: 0.875em;
 }
 
 a {
   color: var(--white);
-  text-decoration: none;
 }
 
 section {
+  position: relative;
   padding: 2em;
   background-color: var(--darkmode-3);
+  border-bottom: 2px solid var(--darkmode-1);
 }
 
 .h2-fancy {
   font-family: 'Palatino', serif;
+  font-style: italic;
 }
 
 .h2-small {
@@ -93,13 +96,14 @@ section {
 
 .email-button {
   display: block;
-  margin: 2em auto 0 auto;
+  margin: 4em auto 0 auto;
   padding: 1em 2em;
   width: 100%;
   color: var(--black);
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   background-color: var(--white); 
   border-radius: 25px;
 }
