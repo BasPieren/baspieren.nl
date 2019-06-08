@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.typekit.net/mef1oyv.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="public/css/style.css">
   <title>Home - Bas Pieren Portfolio</title>
@@ -13,73 +12,83 @@
 
   <h1>Bas Pieren portfolio website</h1>
 
-  <nav id="bp-main-navigation">
-    <div  class="flex-vertical">
-      <i class="fas fa-circle bp-home-nav"></i>
-      <i class="fas fa-circle bp-about-nav"></i>
-      <i class="fas fa-circle bp-work-nav"></i>
-      <i class="fas fa-circle bp-contact-nav"></i>
-    </div>
-  </nav>
+  <header class="display-flex-h">
+
+    <h4><span class="text-color-function">baspieren</span>()</h4>
+
+    <nav class="display-flex-h">
+      <a href="#"><<span class="text-color-pink">about</span>/></a>
+      <a href="#"><<span class="text-color-pink">work</span>/></a>
+      <a href="#"><<span class="text-color-pink">contact</span>/></a>
+    </nav>
+
+  </header>
 
   <main>
 
-    <section id="bp-home-section" class="flex-vertical">
-      <h2 class="pb-greeting-message"></h2>
-      <div>
-        <img class="bp-divider" src="public/images/bp-divider.svg" alt="">
-        <h4>Bas Pieren</h4>
-      </div>
-      <h3><span>Front-end</span> Developer & <span>Web</span> Designer.</h3>
-      <p>And just an allround oke guy.</p>
+    <section id="home" class="display-flex-v">
+      
+      <h3>Bas Pieren</h3>
 
-      <div>
-        <a href="https://github.com/BasPieren" target="_blank"><i class="fab fa-github-square"></i></a>
-        <a href="https://www.linkedin.com/in/bas-pieren-673497100/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/BasPieren" target="_blank"><i class="fab fa-twitter-square"></i></a>
-        <a href="https://www.instagram.com/baspieren/" target="_blank"><i class="fab fa-instagram"></i></a>
-      </div>
+      <h2><span class="h2-fancy">Creative</span> Developer <span class="h2-small">(in training)</span></h2>
 
-      <img class="bp-scroll-indicator" src="public/images/bp-circle-icon-dark-grey.svg" alt="">
+      <p class="text-color-comment">// And just a oke guy.</p>
+
     </section>
 
-    <section id="bp-about-section" class="flex-vertical">
-      <h3>About <span>me</span>.</h3>
-      <p>My name is <span>Bas Pieren</span>, 3rd year HBO student <span>Communication and Multimedia Design</span> at the <span>Hogeschool van Amsterdam</span>.</p>
-      <p>I focus on Front-end Development but I am also skilled at UI Design. With a passion for media I always try to develop and improve myself in my profession. In my spare time I like to listen to music and play video games.</p>
+    <section id="about">
 
-      <img class="bp-divider" src="public/images/bp-divider.svg" alt="">
-      <!-- <img class="bp-profile-picture" src="public/images/bp-profile-picture.jpg" alt="Profiel foto van Bas Pieren">
+        <h3><<span class="text-color-pink">about</span>/></h3>
 
-      <p class="bp-handwriting">That's me!</p> -->
+        <p class="text-color-comment">// With my passion for media I always try to develop and improve myself. </p>
+        <p class="text-color-comment">// In my spare time I like to listen to music and play video games.</p>
 
-      <img class="bp-scroll-indicator" src="public/images/bp-circle-icon-dark-grey.svg" alt="">
+        <div>
+          <p><span class="text-color-blue">class</span> <span class="text-color-function">Bas Pieren</span> {</p>
+          <p><span class="text-color-comment">··</span><span class="text-color-blue">constructor</span>() {</p>
+          <p><span class="text-color-comment">···</span><span class="text-color-orange">this</span>.name <span class="text-color-pink">=</span> <span class="text-color-string">'Bas Pieren'</span></p>
+          <p><span class="text-color-comment">···</span><span class="text-color-orange">this</span>.age = <span class="text-color-number">23</span></p>
+          <p><span class="text-color-comment">···</span><span class="text-color-orange">this</span>.focus = <span class="text-color-string">‘Creative Developer’</span></p> 
+          <p><span class="text-color-comment">··</span>}</p>
+          <p><span class="text-color-comment">··</span><span class="text-color-blue">workExperience</span>() {</p>   
+          <p><span class="text-color-comment">···</span><span class="text-color-pink">return</span> {</p>
+          <p><span class="text-color-comment">····</span>jun2016-jul2016: <span class="text-color-string">‘Front-end Developer at Gemini Design’</span></p>        
+          <p><span class="text-color-comment">···</span>}</p>      
+          <p><span class="text-color-comment">··</span>}</p>
+          <p><span class="text-color-comment">··</span><span class="text-color-blue">education</span>() {</p> 
+          <p><span class="text-color-comment">···</span><span class="text-color-pink">return</span> {</p>      
+          <p><span class="text-color-comment">····</span>2016-now: <span class="text-color-string">‘HvA - Communication and Multimedia Design’</span>,</p>        
+          <p><span class="text-color-comment">····</span>2012-2016: <span class="text-color-string">‘MediaCollege Amsterdam - Interactief Vormgeven’</span>,</p>        
+          <p><span class="text-color-comment">····</span>2009-2012: <span class="text-color-string">‘Haarlem College - Grafimedia’</span></p>        
+          <p><span class="text-color-comment">···</span>}</p>      
+          <p><span class="text-color-comment">··</span>}</p>
+          <p><span class="text-color-comment">··</span><span class="text-color-blue">skills</span>() {</p>   
+          <p><span class="text-color-comment">···</span><span class="text-color-pink">return</span> [<span class="text-color-string">‘HTML’</span>, <span class="text-color-string">‘CSS’</span>, <span class="text-color-string">‘JavaScript’</span>, <span class="text-color-string">‘Node.js’</span>, <span class="text-color-string">‘UI Design’</span>]</p>      
+          <p><span class="text-color-comment">··</span>}</p>      
+          <p>}</p>
+        </div>
+
     </section>
 
-    <section id="bp-work-section" class="flex-vertical">
-      <h3>My <span>work</span>.</h3>
+    <section id="work">
 
-      <img class="bp-scroll-indicator" src="public/images/bp-circle-icon-dark-grey.svg" alt="">
+        <h3><<span class="text-color-pink">work</span>/></h3>
+
+        <p class="text-color-comment">// This is some of my work.</p>
+
+
     </section>
 
-    <section id="bp-contact-section" class="flex-vertical">
-      <h3>Lets <span>talk</span>.</h3>
-      <p class="bp-handwriting">Send me an email or give me a call.</p>
+    <section id="contact">
 
-      <img class="bp-divider" src="public/images/bp-divider.svg" alt="">
+        <h3><<span class="text-color-pink">contact</span>/></h3>
 
-      <ul>
-        <li>06 21979943</li>
-        <li>bas.pieren@quicknet.nl</li>
-      </ul>
+        <p class="text-color-comment">// Lets talk!</p>
+
     </section>
+
   </main>
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
 <script src="public/js/script.js" type="module"></script>
 </body>
 </html>
