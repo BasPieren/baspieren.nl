@@ -7,6 +7,11 @@ header {
   animation: topSlideIn .5s 3.1s ease-in both;
 }
 
+header button {
+  color: var(--white);
+  font-size: 2em;
+}
+
 header nav a {
   text-decoration: none;
 }
