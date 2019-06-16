@@ -1,3 +1,5 @@
 'use strict';
 
-console.log('Hello World!')
+import { headerBackgroundScroll } from './modules/header-background-scroll.js'
+
+headerBackgroundScroll()
