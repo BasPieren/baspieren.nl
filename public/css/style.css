@@ -2,10 +2,13 @@
 @import 'modules/fonts.css';
 @import 'modules/root.css';
 @import 'modules/general.css';
+@import 'modules/general-768px.css';
 @import 'modules/header.css';
+@import 'modules/header-768px.css';
 
 /* ---------- HOME ---------- */
 @import 'modules/home/home.css';
+@import 'modules/home/home-768px.css';
 
 /* ---------- ABOUT ---------- */
 @import 'modules/about/about.css';
@@ -15,3 +18,6 @@
 
 /* ---------- CONTACT ---------- */
 @import 'modules/contact/contact.css';
+
+/* ---------- ANIMATIONS ---------- */
+@import 'modules/animations.css';
