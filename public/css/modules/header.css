@@ -4,8 +4,15 @@ header {
   height: 10vh;
   padding: 1em;
   z-index: 1;
+  animation: topSlideIn .5s 3.1s ease-in both;
 }
 
 header nav a {
   text-decoration: none;
+}
+
+.header-background-color {
+  background-color: var(--darkmode-3);
+  border-bottom: 2px solid var(--darkmode-1);
+  transition: 0.2s ease-in-out;
 }
