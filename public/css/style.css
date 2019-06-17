@@ -3,8 +3,13 @@
 @import 'modules/root.css';
 @import 'modules/general.css';
 @import 'modules/general-768px.css';
-@import 'modules/header.css';
-@import 'modules/header-768px.css';
+
+/* ---------- HEADER ---------- */
+@import 'modules/header/header.css';
+@import 'modules/header/header-768px.css';
+
+/* ---------- NAV ---------- */
+@import 'modules/nav/mobile-nav.css';
 
 /* ---------- HOME ---------- */
 @import 'modules/home/home.css';
