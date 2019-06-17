@@ -1,0 +1,34 @@
+aside {
+  position: fixed;
+  padding: 8em 4em 2em 2em;
+  top: -50em;
+  width: 100vw;
+  height: 100%;
+  background-color: var(--black-2);
+  transition: .5s ease-in-out;
+  z-index: 998;
+}
+
+aside nav a {
+  margin: .5em 0;
+  color: var(--white);
+  font-size: var(--font-size-40px);
+  text-decoration: none;
+}
+
+aside nav a:first-of-type {
+  margin-top: 0;
+}
+
+aside nav a:last-of-type {
+  margin-bottom: 0;
+}
+
+aside ul {
+    margin: auto 0 0 0;
+}
+
+aside ul li a {
+    color: var(--paragraph-color-comment);
+    font-size: 2.5em; 
+}
