@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: linear-gradient(to right top, #152642, #13243f, #10223c, #0e203a, #0b1e37, #0d2039, #10233c, #12253e, #192d47, #203550, #283d59, #2f4562);
-}
-
 h1, h2, h3, h4, h5, h6, p, a {
   color: var(--white);
   font-family: 'Roboto Mono', monospace, sans-serif;
@@ -18,19 +14,20 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5em;
+  font-size: var(--font-size-50px);
   font-weight: 400;
 }
 
 h3 {
   margin: 0 0 1em 0;
+  font-size: var(--font-size-22px);
   font-weight: 400;
 }
 
 p {
   margin: 0 0 0.75em 0;
   color: var(--white);
-  font-size: 0.875em;
+  font-size: var(--font-size-16px);
 }
 
 a {
@@ -40,36 +37,7 @@ a {
 section {
   position: relative;
   padding: 2em;
-  background-color: var(--darkmode-3);
-  border-bottom: 2px solid var(--darkmode-1);
-}
-
-aside {
-  position: fixed;
-  padding: 4em;
-  left: -20em;
-  width: 75vw;
-  height: 100%;
-  background-color: var(--darkmode-3);
-  border-right: 2px solid var(--darkmode-1);
-  box-shadow: 10px 0px 20px -15px rgba(0,0,0,0.75);
-  transition: .5s ease-in-out;
-  z-index: 999;
-}
-
-aside nav a {
-  margin: 1em 0;
-  color: var(--white);
-  font-size: 1.5em;
-  text-decoration: none;
-}
-
-aside nav a:first-of-type {
-  margin-top: 0;
-}
-
-aside nav a:last-of-type {
-  margin-bottom: 0;
+  background-color: var(--black-2);
 }
 
 .display-flex-h {
@@ -84,25 +52,33 @@ aside nav a:last-of-type {
   justify-content: space-between;
 }
 
-.h2-fancy {
-  font-family: 'Palatino', serif;
-  font-style: italic;
-}
-
 .display-none {
   display: none!important;
 }
 
 .show {
-  left: 0;
+  top: 0;
 }
 
 .overflow-hidden {
   overflow: hidden;
 }
 
+.h2-fancy {
+  font-family: 'Palatino', serif;
+  font-style: italic;
+}
+
 .h2-small {
   font-size: 0.5em;
+}
+
+.text-color-white {
+  color: var(--white);
+}
+
+.text-color-pink {
+  color: var(--pink);
 }
 
 .text-color-function {
@@ -113,21 +89,17 @@ aside nav a:last-of-type {
   color: var(--yellow);
 }
 
-.text-color-number {
-  color: var(--purple);
-}
-
-.text-color-pink {
-  color: var(--pink);
-}
-
 .text-color-orange {
   color: var(--orange);
 }
 
+.text-color-number {
+  color: var(--purple);
+}
+
 .text-color-blue {
   color: var(--blue);
-  font-style: italic
+  font-style: italic;
 }
 
 .text-color-comment {
