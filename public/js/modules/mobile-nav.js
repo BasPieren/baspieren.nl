@@ -1,16 +1,20 @@
+import * as helper from './helper.js'
+
 function mobileNav() {
     const body = document.querySelector('body'),
           headerHeading = document.querySelector('header h4 span'),
           headerHamburger = document.querySelector('header button'),
           aside = document.querySelector('aside')
+          
+    const arr = [
+        { element: body, class: 'overflow-hidden' }, 
+        { element: headerHeading, class: 'text-color-secondary' },
+        { element: headerHeading, class: 'text-color-comment' }, 
+        { element: headerHamburger, class: 'text-color-secondary' },
+        { element: aside, class: 'show' }
+    ]
 
-    headerHamburger.addEventListener('click', () => {
-        body.classList.toggle('overflow-hidden')
-        headerHeading.classList.toggle('text-color-secondary')
-        headerHeading.classList.toggle('text-color-comment')
-        headerHamburger.classList.toggle('text-color-secondary')
-        aside.classList.toggle('show')
-    })
+    helper.classToggleClick(headerHamburger, arr)
 }
 
 export { mobileNav }
