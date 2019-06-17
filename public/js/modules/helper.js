@@ -1,6 +1,6 @@
 function classToggleClick(clickElement, toggleElements) {
     clickElement.addEventListener('click', () => {
-        elements.forEach(e => {
+        toggleElements.forEach(e => {
             e.element.classList.toggle(e.class)
         })
     })
