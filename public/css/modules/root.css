@@ -1,6 +1,8 @@
 :root {
+    /* COLORS */
     --white: #FFFFFF;
     --black: #000000;
+    --black-2: #1a1527;
     --pink: #FF6188;
     --green: #A9DC76;
     --yellow: #FFD866;
@@ -12,4 +14,17 @@
     --darkmode-3: #081B33;
     --paragraph-color-comment: #767D92;
     --secondary-color: #d93551;
+    
+    /* FONT SIZES */
+    --font-size-16px: 1em;
+    --font-size-18px: 1.125em;
+    --font-size-20px: 1.250em;
+    --font-size-22px: 1.375em;
+    --font-size-24px: 1.5em;
+    --font-size-26px: 1.625em;
+    --font-size-28px: 1.750em;
+    --font-size-30px: 1.875em;
+    --font-size-32px: 2em;
+    --font-size-40px: 2.5em;
+    --font-size-50px: 3.125em;
 }
