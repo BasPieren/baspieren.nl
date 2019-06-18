@@ -1,4 +1,4 @@
-import * as helper from "./helper.js"
+import * as helper from "../helper.js"
 
 function mobileNav() {
 	const body = document.querySelector("body"),
