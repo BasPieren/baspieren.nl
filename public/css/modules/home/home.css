@@ -1,28 +1,43 @@
 #home {
-  height: 100vh;
-  background-image: linear-gradient(to right top, #1a1527, #181629, #16172c, #13182e, #0f1930, #12172d, #151629, #161426, #180f1c, #150913, #0e0409, #000000);
-  border-bottom: 2px solid var(--darkmode-1);
+	height: 100vh;
+	background-image: linear-gradient(
+		to right top,
+		#1a1527,
+		#181629,
+		#16172c,
+		#13182e,
+		#0f1930,
+		#12172d,
+		#151629,
+		#161426,
+		#180f1c,
+		#150913,
+		#0e0409,
+		#000000
+	);
+	border-bottom: 2px solid var(--darkmode-1);
 }
 
 #home h3 {
-  margin: auto 0 0 0; 
-  font-size: var(--font-size-32px);
+	margin: auto 0 0 0;
+	font-size: var(--font-size-32px);
 }
 
 #home h2 {
-  margin: auto 0; 
-  animation: fadeIn .3s 2.5s ease-in both;
+	margin: auto 0;
+	animation: fadeIn 0.3s 2.5s ease-in both;
 }
 
 #home p {
-  margin: auto 0 0 0;
-  animation: fadeIn .3s 2.8s ease-in both;
+	margin: auto 0 0 0;
+	animation: fadeIn 0.3s 2.8s ease-in both;
 }
 
 #home i {
-  position: absolute;
-  right: 2em;
-  bottom: 2em;
-  color: var(--paragraph-color-comment);
-  animation: scrollIndicatorSlideIn .5s 3.1s ease-in both, scrollIndicatorJump 3s 4s ease-in-out infinite;
+	position: absolute;
+	right: 2em;
+	bottom: 2em;
+	color: var(--paragraph-color-comment);
+	animation: scrollIndicatorSlideIn 0.5s 3.1s ease-in both,
+		scrollIndicatorJump 3s 4s ease-in-out infinite;
 }

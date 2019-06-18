@@ -1,28 +1,28 @@
 /* ---------- GLOBAL ---------- */
-@import 'modules/fonts.css';
-@import 'modules/root.css';
-@import 'modules/general.css';
-@import 'modules/general-768px.css';
+@import "modules/fonts.css";
+@import "modules/root.css";
+@import "modules/general.css";
+@import "modules/general-768px.css";
 
 /* ---------- HEADER ---------- */
-@import 'modules/header/header.css';
-@import 'modules/header/header-768px.css';
+@import "modules/header/header.css";
+@import "modules/header/header-768px.css";
 
 /* ---------- NAV ---------- */
-@import 'modules/nav/mobile-nav.css';
+@import "modules/nav/mobile-nav.css";
 
 /* ---------- HOME ---------- */
-@import 'modules/home/home.css';
-@import 'modules/home/home-768px.css';
+@import "modules/home/home.css";
+@import "modules/home/home-768px.css";
 
 /* ---------- ABOUT ---------- */
-@import 'modules/about/about.css';
+@import "modules/about/about.css";
 
 /* ---------- WORK ---------- */
-@import 'modules/work/work.css';
+@import "modules/work/work.css";
 
 /* ---------- CONTACT ---------- */
-@import 'modules/contact/contact.css';
+@import "modules/contact/contact.css";
 
 /* ---------- ANIMATIONS ---------- */
-@import 'modules/animations.css';
+@import "modules/animations.css";

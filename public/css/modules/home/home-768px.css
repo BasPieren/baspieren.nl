@@ -1,25 +1,23 @@
 @media (min-width: 768px) {
-      
-      #home h3 {
-        margin: auto 0 0 0; 
-        font-size: 2.2em;
-        font-weight: 600;
-        text-align: right;
-      }
-      
-      #home h2 {
-        margin: auto 0; 
-      }
-      
-      #home p {
-        margin: auto 0 0 0;
-      }
-      
-      #home i {
-        position: absolute;
-        right: 7em;
-        bottom: 2em;
-        color: var(--paragraph-color-comment);
-      }
-          
+	#home h3 {
+		margin: auto 0 0 0;
+		font-size: 2.2em;
+		font-weight: 600;
+		text-align: right;
+	}
+
+	#home h2 {
+		margin: auto 0;
+	}
+
+	#home p {
+		margin: auto 0 0 0;
+	}
+
+	#home i {
+		position: absolute;
+		right: 7em;
+		bottom: 2em;
+		color: var(--paragraph-color-comment);
+	}
 }
