@@ -1,4 +1,4 @@
-header {
+.header {
 	position: fixed;
 	width: 100%;
 	height: 10vh;
@@ -7,22 +7,25 @@ header {
 	animation: topSlideIn 0.5s 3.1s ease-in both;
 }
 
-header h4 span {
+.header__logo span {
 	transition: 0.2s 0.1s ease-in-out;
 }
 
-header button {
+.header__hamburger {
 	margin-left: auto;
-	color: var(--paragraph-color-comment);
-	font-size: 2em;
 	transition: 0.2s ease-in-out;
 }
 
-header nav a {
+.header__hamburger i {
+	font-size: 2em;
+	color: var(--paragraph-color-comment);
+}
+
+.header__desktopNav a {
 	text-decoration: none;
 }
 
-.header-background-color {
+.header--background-black2 {
 	background-color: var(--black-2);
 	transition: 0.2s ease-in-out;
 }

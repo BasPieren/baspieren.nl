@@ -1,4 +1,4 @@
-aside {
+.mobileNav {
 	position: fixed;
 	padding: 8em 4em 2em 2em;
 	top: -50em;
@@ -9,26 +9,42 @@ aside {
 	z-index: 998;
 }
 
-aside nav a {
+.mobileNav nav a {
 	margin: 0.5em 0;
 	color: var(--white);
 	font-size: var(--font-size-40px);
 	text-decoration: none;
 }
 
-aside nav a:first-of-type {
+.mobileNav nav a:first-of-type {
 	margin-top: 0;
 }
 
-aside nav a:last-of-type {
+.mobileNav nav a:last-of-type {
 	margin-bottom: 0;
 }
 
-aside ul {
+.mobileNav--show {
+	top: 0;
+}
+
+.mobileNav__socail-list {
 	margin: auto 0 0 0;
 }
 
-aside ul li a {
+.mobileNav__socail-list__item {
+	margin: 0.5em 0;
+}
+
+.mobileNav__socail-list__item:first-of-type {
+	margin-top: 0;
+}
+
+.mobileNav__socail-list__item:last-of-type {
+	margin-bottom: 0;
+}
+
+.mobileNav__socail-list__item a i {
 	color: var(--paragraph-color-comment);
 	font-size: var(--font-size-40px);
 }

@@ -16,20 +16,24 @@
 	<body>
 		<h1>Bas Pieren portfolio website</h1>
 
-		<header class="display-flex-h">
-			<h4><span class="text-color-secondary">Bas Pieren</span></h4>
+		<header class="display--flex-h header">
+			<h4 class="header__logo">
+				<span class="text-color-secondary">Bas Pieren</span>
+			</h4>
 
-			<button><i class="fas fa-hamburger"></i></button>
+			<button class="header__hamburger">
+				<i class="fas fa-hamburger"></i>
+			</button>
 
-			<nav class="display-none display-flex-h">
+			<nav class="display--none display--flex-h header__desktopNav">
 				<a href="#about"><<span class="text-color-pink">about</span>/></a>
 				<a href="#work"><<span class="text-color-pink">work</span>/></a>
 				<a href="#contact"><<span class="text-color-pink">contact</span>/></a>
 			</nav>
 		</header>
 
-		<aside class="display-flex-v">
-			<nav class="display-flex-v">
+		<aside class="display--flex-v mobileNav">
+			<nav class="display--flex-v">
 				<a href="#about"><span class="text-color-function">about</span>()</a>
 				<a href="#work"><span class="text-color-function">work</span>()</a>
 				<a href="#contact"
@@ -37,19 +41,21 @@
 				>
 			</nav>
 
-			<ul>
-				<li class="display-flex-h">
-					<a href="https://www.linkedin.com/in/bas-pieren-673497100/"
+			<ul class="mobileNav__socailList">
+				<li class="display--flex-h mobileNav__socail-list__item">
+					<a
+						href="https://www.linkedin.com/in/bas-pieren-673497100/"
+						target="_blank"
 						><i class="fab fa-linkedin"></i
 					></a>
 				</li>
-				<li class="display-flex-h">
-					<a href="https://twitter.com/BasPieren"
+				<li class="display--flex-h mobileNav__socail-list__item">
+					<a href="https://twitter.com/BasPieren" target="_blank"
 						><i class="fab fa-twitter-square"></i
 					></a>
 				</li>
-				<li class="display-flex-h">
-					<a href="https://github.com/BasPieren"
+				<li class="display--flex-h mobileNav__socail-list__item">
+					<a href="https://github.com/BasPieren" target="_blank"
 						><i class="fab fa-github-square"></i
 					></a>
 				</li>
@@ -57,7 +63,7 @@
 		</aside>
 
 		<main>
-			<section id="home" class="display-flex-v">
+			<section id="home" class="display--flex-v">
 				<h3></h3>
 
 				<h2><span class="h2-fancy">Creative</span> Developer</h2>
@@ -67,13 +73,13 @@
 				<i class="fas fa-chevron-down"></i>
 			</section>
 
-			<section id="work" class="display-flex-v">
+			<section id="work" class="display--flex-v">
 				<h3><span class="text-color-function">work</span>()</h3>
 
 				<p class="text-color-comment">// This is some of my work.</p>
 
 				<div>
-					<article class="display-flex-v work-article">
+					<article class="display--flex-v work-article">
 						<img src="" alt="" />
 
 						<h4><span class="text-color-secondary">Title</span></h4>
@@ -82,7 +88,7 @@
 							eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 
-						<div class="display-flex-h">
+						<div class="display--flex-h">
 							<p class="text-color-white">Tag</p>
 							<p class="text-color-white">Tag</p>
 							<p class="text-color-white">Tag</p>
@@ -90,13 +96,13 @@
 
 						<a
 							href="https://github.com/BasPieren/real-time-web-1819"
-							class="button button-solid display-flex-h"
+							class="button button-solid display--flex-h"
 							target="_blank"
 							>Link</a
 						>
 					</article>
 
-					<article class="display-flex-v work-article ">
+					<article class="display--flex-v work-article ">
 						<img src="" alt="" />
 
 						<h4><span class="text-color-secondary">Title</span></h4>
@@ -105,7 +111,7 @@
 							eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 
-						<div class="display-flex-h">
+						<div class="display--flex-h">
 							<p class="text-color-white">Tag</p>
 							<p class="text-color-white">Tag</p>
 							<p class="text-color-white">Tag</p>
@@ -113,13 +119,13 @@
 
 						<a
 							href="#"
-							class="button button-solid display-flex-h"
+							class="button button-solid display--flex-h"
 							target="_blank"
 							>Link</a
 						>
 					</article>
 
-					<article class="display-flex-v work-article">
+					<article class="display--flex-v work-article">
 						<img src="" alt="" />
 
 						<h4><span class="text-color-secondary">Title</span></h4>
@@ -128,7 +134,7 @@
 							eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 
-						<div class="display-flex-h">
+						<div class="display--flex-h">
 							<p class="text-color-white">Tag</p>
 							<p class="text-color-white">Tag</p>
 							<p class="text-color-white">Tag</p>
@@ -136,7 +142,7 @@
 
 						<a
 							href="#"
-							class="button button-solid display-flex-h"
+							class="button button-solid display--flex-h"
 							target="_blank"
 							>Link</a
 						>
@@ -144,7 +150,7 @@
 
 					<a
 						href="https://github.com/BasPieren"
-						class="button button-solid display-flex-h"
+						class="button button-solid display--flex-h"
 						target="_blank"
 						>More...</a
 					>
@@ -262,17 +268,17 @@
 				<p class="text-color-comment">// Lets talk!</p>
 
 				<ul>
-					<li class="display-flex-h">
+					<li class="display--flex-h">
 						<i class="fab fa-linkedin"></i
 						><a href="https://www.linkedin.com/in/bas-pieren-673497100/"
 							>linkedin.com/bas-pieren</a
 						>
 					</li>
-					<li class="display-flex-h">
+					<li class="display--flex-h">
 						<i class="fab fa-twitter-square"></i>
 						<a href="https://twitter.com/BasPieren">@baspieren</a>
 					</li>
-					<li class="display-flex-h">
+					<li class="display--flex-h">
 						<i class="fab fa-github-square"></i
 						><a href="https://github.com/BasPieren">github.com/BasPieren</a>
 					</li>
