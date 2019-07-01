@@ -1,19 +1,9 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
 	color: var(--white);
 	font-family: "Roboto Mono", monospace, sans-serif;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -25,49 +15,78 @@ h2 {
 	font-weight: 400;
 }
 
-h3 {
-	margin: 0 0 1em 0;
-	font-size: var(--font-size-22px);
-	font-weight: 400;
-}
-
 p {
 	margin: 0 0 0.75em 0;
 	color: var(--white);
 	font-size: var(--font-size-16px);
 }
 
-a {
-	color: var(--secondary-color);
+ul {
+	list-style: none;
 }
 
-section {
+button {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.section {
 	position: relative;
 	padding: 2em;
+	min-height: 100vh;
 	background-color: var(--black-2);
 }
 
-.display-flex-h {
+.section--home {
+	background-image: linear-gradient(
+		to right top,
+		#1a1527,
+		#181629,
+		#16172c,
+		#13182e,
+		#0f1930,
+		#12172d,
+		#151629,
+		#161426,
+		#180f1c,
+		#150913,
+		#0e0409,
+		#000000
+	);
+	border-bottom: 2px solid var(--darkmode-1);
+}
+
+.section__heading {
+	margin: 0 0 1em 0;
+	font-size: var(--font-size-22px);
+	font-weight: 400;
+}
+
+.section__text--comment {
+	color: var(--paragraph-color-comment);
+}
+
+.display--flex-h {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.display-flex-v {
+.display--flex-v {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.display-none {
+.display--none {
 	display: none !important;
 }
 
-.show {
-	top: 0;
-}
-
-.overflow-hidden {
+.overflow--hidden {
 	overflow: hidden;
 }
 
@@ -80,40 +99,40 @@ section {
 	font-size: 0.5em;
 }
 
-.text-color-white {
+.span--white {
 	color: var(--white);
 }
 
-.text-color-pink {
+.span--pink {
 	color: var(--pink);
 }
 
-.text-color-function {
+.span--function {
 	color: var(--green);
 }
 
-.text-color-string {
+.span--string {
 	color: var(--yellow);
 }
 
-.text-color-orange {
+.span--orange {
 	color: var(--orange);
 }
 
-.text-color-number {
+.span--number {
 	color: var(--purple);
 }
 
-.text-color-blue {
+.span--blue {
 	color: var(--blue);
 	font-style: italic;
 }
 
-.text-color-comment {
-	color: var(--paragraph-color-comment);
+.span--darkmode-3 {
+	color: var(--darkmode-3);
 }
 
-.text-color-secondary {
+.span--secondary {
 	color: var(--secondary-color);
 }
 

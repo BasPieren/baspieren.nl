@@ -6,10 +6,11 @@
 
 /* ---------- HEADER ---------- */
 @import "modules/header/header.css";
-@import "modules/header/header-768px.css";
+@import "modules/header/header-@media.css";
 
 /* ---------- NAV ---------- */
 @import "modules/nav/mobile-nav.css";
+@import "modules/nav/mobile-nav-@media.css";
 
 /* ---------- HOME ---------- */
 @import "modules/home/home.css";

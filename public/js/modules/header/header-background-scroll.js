@@ -1,14 +1,14 @@
 function headerBackgroundScroll() {
 	const scrollPos = 0,
-		header = document.querySelector("header")
+		header = document.getElementsByClassName("header")
 
 	window.addEventListener("scroll", () => {
 		let windowYOffset = window.scrollY
 
 		if (windowYOffset > scrollPos) {
-			header.classList.add("header-background-color")
+			header[0].classList.add("header--hide")
 		} else if (windowYOffset === scrollPos) {
-			header.classList.remove("header-background-color")
+			header[0].classList.remove("header--hide")
 		}
 	})
 }

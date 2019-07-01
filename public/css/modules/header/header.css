@@ -1,31 +1,45 @@
 .header {
 	position: fixed;
 	width: 100%;
-	height: 10vh;
 	padding: 2em;
-	z-index: 999;
+	opacity: 1;
 	animation: topSlideIn 0.5s 3.1s ease-in both;
+	transition: 0.2s 0.1s ease-in-out;
+	z-index: 999;
 }
 
-.header__logo span {
+.header--hide {
+	opacity: 0 !important;
+}
+
+.header__logo {
+	color: var(--secondary-color);
 	transition: 0.2s 0.1s ease-in-out;
 }
 
-.header__hamburger {
+.header__logo--white {
+	color: var(--white);
+}
+
+.header__button {
 	margin-left: auto;
 	transition: 0.2s ease-in-out;
 }
 
-.header__hamburger i {
-	font-size: 2em;
-	color: var(--paragraph-color-comment);
+.header__button__icon {
+	font-size: var(--font-size-40px);
+	color: var(--comment-text);
+	transition: 0.2s 0.1s ease-in-out;
 }
 
-.header__desktopNav a {
+.header__button__icon--white {
+	color: var(--white);
+}
+
+.header__desktopNav {
+	width: 50%;
+}
+
+.header__desktopNav__item {
 	text-decoration: none;
-}
-
-.header--background-black2 {
-	background-color: var(--black-2);
-	transition: 0.2s ease-in-out;
 }

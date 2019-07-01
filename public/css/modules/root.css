@@ -2,7 +2,7 @@
 	/* COLORS */
 	--white: #ffffff;
 	--black: #000000;
-	--black-2: #1a1527;
+	--black-text: #1a1527;
 	--pink: #ff6188;
 	--green: #a9dc76;
 	--yellow: #ffd866;
@@ -12,7 +12,7 @@
 	--darkmode-1: #2f4562;
 	--darkmode-2: #152642;
 	--darkmode-3: #081b33;
-	--paragraph-color-comment: #767d92;
+	--comment-text: #767d92;
 	--secondary-color: #d93551;
 
 	/* FONT SIZES */

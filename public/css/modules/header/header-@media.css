@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+	.header {
+		padding: 2em 4em;
+	}
+
+	.header__button {
+		display: none;
+	}
+
+	.header__desktopNav {
+		display: flex !important ;
+		width: 50%;
+	}
+}
+
+@media (min-width: 1080px) {
+	.header {
+		padding: 3.5em 7em;
+	}
+
+	.header__desktopNav {
+		width: 25%;
+	}
+}
