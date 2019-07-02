@@ -1,3 +1,15 @@
+@media (min-width: 320px) {
+	.section__block i {
+		right: var(--mobile-small-padding-320px);
+	}
+}
+
+@media (min-width: 375px) {
+	.section__block i {
+		right: var(--mobile-small-padding-375px);
+	}
+}
+
 @media (min-width: 768px) {
 	.section--home {
 		padding-top: 11em;

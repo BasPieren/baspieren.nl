@@ -17,6 +17,8 @@
 	--secondary-color: #d93551;
 
 	/* PADDING */
+	--mobile-small-padding-320px: 1.675em;
+	--mobile-small-padding-375px: 2em;
 	--mobile-padding-425px: 2.25em;
 	--tablet-padding-768px: 4em;
 	--desktop-small-padding-1024px: 5.35em;
