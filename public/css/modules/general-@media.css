@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+	.section {
+		padding-right: 4em;
+		padding-left: 4em;
+	}
+}
+
+@media (min-width: 1080px) {
+	.section {
+		padding-right: 8em;
+		padding-left: 8em;
+	}
+}

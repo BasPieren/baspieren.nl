@@ -1,5 +1,5 @@
 function basPierenHome() {
-	const homeH3 = document.querySelector("#home h3")
+	const homeHeading = document.getElementsByClassName("section__heading")
 
 	const options = {
 		strings: [`<span class="span--function">basPieren</span>()`],
@@ -8,7 +8,7 @@ function basPierenHome() {
 		showCursor: false
 	}
 
-	const typed = new Typed(homeH3, options)
+	const typed = new Typed(homeHeading[0], options)
 }
 
 export { basPierenHome }

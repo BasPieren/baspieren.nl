@@ -2,7 +2,7 @@
 @import "modules/fonts.css";
 @import "modules/root.css";
 @import "modules/general.css";
-@import "modules/general-768px.css";
+@import "modules/general-@media.css";
 
 /* ---------- HEADER ---------- */
 @import "modules/header/header.css";
@@ -14,7 +14,7 @@
 
 /* ---------- HOME ---------- */
 @import "modules/home/home.css";
-@import "modules/home/home-768px.css";
+@import "modules/home/home-@media.css";
 
 /* ---------- ABOUT ---------- */
 @import "modules/about/about.css";

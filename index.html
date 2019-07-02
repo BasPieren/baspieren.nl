@@ -17,17 +17,17 @@
 	<body>
 		<h1>Bas Pieren portfolio website</h1>
 
-		<header class="display--flex-h header">
-			<h4 class="header__logo">Bas Pieren</h4>
+		<header class="display--flex-h header animation--topSlideIn">
+			<img class="header__image" src="public/images/profile_pic.jpg" alt="" />
 
 			<button class="header__button">
 				<i class="fas fa-hamburger header__button__icon"></i>
 			</button>
 
 			<nav class="display--none display--flex-h header__desktopNav">
-				<a href="#about" class="header__desktopNav__item">about</a>
-				<a href="#work" class="header__desktopNav__item">work</a>
-				<a href="#contact" class="header__desktopNav__item">contact</a>
+				<a href="#about">about</a>
+				<a href="#work">work</a>
+				<a href="#contact">contact</a>
 			</nav>
 		</header>
 
@@ -35,8 +35,7 @@
 			<nav class="display--flex-v">
 				<a href="#about" class="mobileNav__item">about</a>
 				<a href="#work" class="mobileNav__item">work</a>
-				<a href="#contact" class="mobileNav__item">contact</a
-				>
+				<a href="#contact" class="mobileNav__item">contact</a>
 			</nav>
 
 			<ul class="display--flex-h mobileNav__socailList">
@@ -61,237 +60,152 @@
 		</aside>
 
 		<main>
-			<section id="home" class="display--flex-v section section--home">
-				<h3></h3>
+			<section class="display--flex-v section section--home">
+				<h3 class="section__heading margin--0"></h3>
 
-				<h2><span class="h2-fancy">Creative</span> Developer</h2>
+				<h2
+					class="section__heading section__heading--large margin--top-auto animation--fadeIn"
+				>
+					<span class="section__text--fancy">Creative</span> Developer
+				</h2>
+				<p class="section__text margin--bottom-auto animation--fadeIn">
+					I design and build websites and other digital products.
+				</p>
 
-				<p class="section__text--comment">// Scroll down.</p>
+				<div class="display--flex-h section__block">
+					<p class="section__text--comment animation--topSlideIn">
+						// Scroll down.
+					</p>
 
-				<i class="fas fa-chevron-down"></i>
+					<i class="fas fa-chevron-down animation--scrollIndicator"></i>
+				</div>
 			</section>
 
-			<!-- <!-- <section id="work" class="display--flex-v section"> -->
+			<section id="work" class="display--flex-v section ">
 				<h3 class="section__heading">
 					<span class="span--function">work</span>()
 				</h3>
 
-				<p class="section__text--comment">// This is some of my work.</p>
+				<article class="work">
+					<h4 class="work__heading"></h4>
+					<p class="work__copy"></p>
 
-				<div>
-					<article class="display--flex-v work-article">
-						<img src="" alt="" />
+					<img src="" alt="" />
+				</article>
+			</section>
 
-						<h4><span class="span--secondary">Title</span></h4>
-						<p class="section__text--comment">
-							// Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-
-						<div class="display--flex-h">
-							<p class="span--white">Tag</p>
-							<p class="span--white">Tag</p>
-							<p class="span--white">Tag</p>
-						</div>
-
-						<a
-							href="https://github.com/BasPieren/real-time-web-1819"
-							class="button button-solid display--flex-h"
-							target="_blank"
-							>Link</a
-						>
-					</article>
-
-					<article class="display--flex-v work-article ">
-						<img src="" alt="" />
-
-						<h4><span class="span--secondary">Title</span></h4>
-						<p class="section__text--comment">
-							// Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-
-						<div class="display--flex-h">
-							<p class="span--white">Tag</p>
-							<p class="span--white">Tag</p>
-							<p class="span--white">Tag</p>
-						</div>
-
-						<a
-							href="#"
-							class="button button-solid display--flex-h"
-							target="_blank"
-							>Link</a
-						>
-					</article>
-
-					<article class="display--flex-v work-article">
-						<img src="" alt="" />
-
-						<h4><span class="span--secondary">Title</span></h4>
-						<p class="section__text--comment">
-							// Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-
-						<div class="display--flex-h">
-							<p class="span--white">Tag</p>
-							<p class="span--white">Tag</p>
-							<p class="span--white">Tag</p>
-						</div>
-
-						<a
-							href="#"
-							class="button button-solid display--flex-h"
-							target="_blank"
-							>Link</a
-						>
-					</article>
-
-					<a
-						href="https://github.com/BasPieren"
-						class="button button-solid display--flex-h"
-						target="_blank"
-						>More...</a
-					>
-				</div>
-			</section> -->
-
-			<!-- <section id="about" class="section">
+			<section id="about" class="display--flex-v section">
 				<h3 class="section__heading">
 					<span class="span--function">about</span>()
 				</h3>
-
-				<p class="section__text--comment">
-					// With my passion for media I always try to develop and improve
-					myself.
-				</p>
-				<p class="section__text--comment">
-					// In my spare time I like to listen to music and play video games.
-				</p>
-
-				<div>
-					<p>
+				<div class="about">
+					<p class="section__text">
 						<span class="span--blue">class</span>
 						<span class="span--function">basPieren</span> {
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">··</span
 						><span class="span--blue">constructor</span>() {
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">···</span
 						><span class="span--orange">this</span>.name
 						<span class="span--pink">=</span>
 						<span class="span--string">'Bas Pieren'</span>
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">···</span
 						><span class="span--orange">this</span>.age =
 						<span class="span--number">23</span>
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">···</span
 						><span class="span--orange">this</span>.focus =
 						<span class="span--string">‘Creative Developer’</span>
 					</p>
-					<p><span class="section__text--comment">··</span>}</p>
-					<p>
+					<p class="section__text">
+						<span class="section__text--comment">··</span>}
+					</p>
+					<p class="section__text">
 						<span class="section__text--comment">··</span
 						><span class="span--function">workExperience</span>() {
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">···</span
 						><span class="span--pink">return</span> {
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">····</span>jun2016-jul2016:
 						<span class="span--string"
 							>‘Front-end Developer at Gemini Design’</span
 						>
 					</p>
-					<p><span class="section__text--comment">···</span>}</p>
-					<p><span class="section__text--comment">··</span>}</p>
-					<p>
+					<p class="section__text">
+						<span class="section__text--comment">···</span>}
+					</p>
+					<p class="section__text">
+						<span class="section__text--comment">··</span>}
+					</p>
+					<p class="section__text">
 						<span class="section__text--comment">··</span
 						><span class="span--function">education</span>() {
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">···</span
 						><span class="span--pink">return</span> {
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">····</span>2016-now:
 						<span class="span--string"
 							>‘HvA - Communication and Multimedia Design’</span
 						>,
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">····</span>2012-2016:
 						<span class="span--string"
 							>‘MediaCollege Amsterdam - Interactief Vormgeven’</span
 						>,
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">····</span>2009-2012:
-						<span class="span--string"
-							>‘Haarlem College - Grafimedia’</span
-						>
+						<span class="span--string">‘Haarlem College - Grafimedia’</span>
 					</p>
-					<p><span class="section__text--comment">···</span>}</p>
-					<p><span class="section__text--comment">··</span>}</p>
-					<p>
+					<p class="section__text">
+						<span class="section__text--comment">···</span>}
+					</p>
+					<p class="section__text">
+						<span class="section__text--comment">··</span>}
+					</p>
+					<p class="section__text">
 						<span class="section__text--comment">··</span
 						><span class="span--function">skills</span>() {
 					</p>
-					<p>
+					<p class="section__text">
 						<span class="section__text--comment">···</span
-						><span class="span--pink">return</span> [<span
-							class="span--string"
+						><span class="span--pink">return</span> [<span class="span--string"
 							>‘HTML’</span
 						>, <span class="span--string">‘CSS’</span>,
 						<span class="span--string">‘JavaScript’</span>,
 						<span class="span--string">‘Node.js’</span>,
 						<span class="span--string">‘UI Design’</span>]
 					</p>
-					<p><span class="section__text--comment">··</span>}</p>
-					<p>}</p>
+					<p class="section__text">
+						<span class="section__text--comment">··</span>}
+					</p>
+					<p class="section__text">}</p>
 				</div>
 
 				<p class="section__text--comment">
 					// Inspired by
 					<a href="https://yasio.pl/" target="_blank">yasio.pl</a>
 				</p>
-			</section> -->
+			</section>
 
-			<!-- <section id="contact" class="section">
+			<section id="contact" class="display--flex-v section ">
 				<h3 class="section__heading">
 					<span class="span--function">contact</span>()
 				</h3>
-
-				<p class="section__text--comment">// Lets talk!</p>
-
-				<ul>
-					<li class="display--flex-h">
-						<i class="fab fa-linkedin"></i
-						><a href="https://www.linkedin.com/in/bas-pieren-673497100/"
-							>linkedin.com/bas-pieren</a
-						>
-					</li>
-					<li class="display--flex-h">
-						<i class="fab fa-twitter-square"></i>
-						<a href="https://twitter.com/BasPieren">@baspieren</a>
-					</li>
-					<li class="display--flex-h">
-						<i class="fab fa-github-square"></i
-						><a href="https://github.com/BasPieren">github.com/BasPieren</a>
-					</li>
-				</ul>
-
-				<a href="mailto:bas.pieren@quicknet.nl" class="button button-solid"
-					>Send me an email</a
-				>
-			</section> -->
+			</section>
 		</main>
 
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>

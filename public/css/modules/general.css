@@ -10,17 +10,6 @@ h1 {
 	display: none;
 }
 
-h2 {
-	font-size: var(--font-size-50px);
-	font-weight: 400;
-}
-
-p {
-	margin: 0 0 0.75em 0;
-	color: var(--white);
-	font-size: var(--font-size-16px);
-}
-
 ul {
 	list-style: none;
 }
@@ -34,40 +23,8 @@ button:focus {
 	outline: none;
 }
 
-.section {
-	position: relative;
-	padding: 2em;
-	min-height: 100vh;
-	background-color: var(--black-2);
-}
-
-.section--home {
-	background-image: linear-gradient(
-		to right top,
-		#1a1527,
-		#181629,
-		#16172c,
-		#13182e,
-		#0f1930,
-		#12172d,
-		#151629,
-		#161426,
-		#180f1c,
-		#150913,
-		#0e0409,
-		#000000
-	);
-	border-bottom: 2px solid var(--darkmode-1);
-}
-
-.section__heading {
-	margin: 0 0 1em 0;
-	font-size: var(--font-size-22px);
-	font-weight: 400;
-}
-
-.section__text--comment {
-	color: var(--paragraph-color-comment);
+.display--none {
+	display: none !important;
 }
 
 .display--flex-h {
@@ -82,21 +39,57 @@ button:focus {
 	justify-content: space-between;
 }
 
-.display--none {
-	display: none !important;
+.margin--0 {
+	margin: 0 !important;
+}
+
+.margin--top-auto {
+	margin-top: auto !important;
+}
+
+.margin--bottom-auto {
+	margin-bottom: auto !important;
 }
 
 .overflow--hidden {
 	overflow: hidden;
 }
 
-.h2-fancy {
+.section {
+	position: relative;
+	padding: 2em;
+	min-height: 100vh;
+	background-color: var(--darkmode-3);
+}
+
+.section__heading {
+	margin: 0 0 2em 0;
+	font-size: var(--font-size-22px);
+	font-weight: 400;
+}
+
+.section__heading--large {
+	margin: 0 0 0.5em 0;
+	font-size: var(--font-size-50px);
+}
+
+.section__text {
+	margin: 0 0 0.75em 0;
+	color: var(--white);
+	font-size: var(--font-size-16px);
+}
+
+.section__text--comment {
+	color: var(--text-comment);
+}
+
+.section__text--fancy {
 	font-family: "Palatino", serif;
 	font-style: italic;
 }
 
-.h2-small {
-	font-size: 0.5em;
+.section__text--intro {
+	margin: 0 0 auto 0;
 }
 
 .span--white {
@@ -134,32 +127,4 @@ button:focus {
 
 .span--secondary {
 	color: var(--secondary-color);
-}
-
-.button {
-	display: block;
-	margin: 4em auto 0 auto;
-	padding: 1em 2em;
-	width: 100%;
-	color: var(--white);
-	font-weight: 500;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	border-radius: 25px;
-}
-
-.button-solid {
-	background-color: var(--secondary-color);
-}
-
-.button-border {
-	color: var(--secondary-color);
-	border: 2px solid var(--secondary-color);
-}
-
-.button-border:active,
-.button-border:hover {
-	color: var(--white);
-	background-color: var(--secondary-color);
 }

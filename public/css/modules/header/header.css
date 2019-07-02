@@ -3,7 +3,6 @@
 	width: 100%;
 	padding: 2em;
 	opacity: 1;
-	animation: topSlideIn 0.5s 3.1s ease-in both;
 	transition: 0.2s 0.1s ease-in-out;
 	z-index: 999;
 }
@@ -12,13 +11,10 @@
 	opacity: 0 !important;
 }
 
-.header__logo {
-	color: var(--secondary-color);
-	transition: 0.2s 0.1s ease-in-out;
-}
-
-.header__logo--white {
-	color: var(--white);
+.header__image {
+	width: auto;
+	max-height: 2.5em;
+	border-radius: 50%;
 }
 
 .header__button {
@@ -28,7 +24,7 @@
 
 .header__button__icon {
 	font-size: var(--font-size-40px);
-	color: var(--comment-text);
+	color: var(--text-comment);
 	transition: 0.2s 0.1s ease-in-out;
 }
 
@@ -38,8 +34,4 @@
 
 .header__desktopNav {
 	width: 50%;
-}
-
-.header__desktopNav__item {
-	text-decoration: none;
 }

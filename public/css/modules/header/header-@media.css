@@ -15,7 +15,11 @@
 
 @media (min-width: 1080px) {
 	.header {
-		padding: 3.5em 7em;
+		padding: 4em;
+	}
+
+	.header__image {
+		max-height: 3em;
 	}
 
 	.header__desktopNav {

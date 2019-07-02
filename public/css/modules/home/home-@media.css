@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+	.section--home {
+		padding-top: 11em;
+	}
+
+	.section__block i {
+		right: 4em;
+	}
+}
+
+@media (min-width: 1080px) {
+	.section__block i {
+		right: 8em;
+	}
+}
