@@ -24,6 +24,7 @@
 
 /* ---------- CONTACT ---------- */
 @import "modules/contact/contact.css";
+@import "modules/contact/contact-@media.css";
 
 /* ---------- ANIMATIONS ---------- */
 @import "modules/animations.css";

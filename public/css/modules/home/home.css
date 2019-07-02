@@ -1,26 +1,11 @@
 .section--home {
 	padding-top: 7.5em;
-	background-image: linear-gradient(
-		to right top,
-		#1a1527,
-		#181629,
-		#16172c,
-		#13182e,
-		#0f1930,
-		#12172d,
-		#151629,
-		#161426,
-		#180f1c,
-		#150913,
-		#0e0409,
-		#000000
-	);
-	border-bottom: 2px solid var(--darkmode-1);
+	height: 100vh;
 }
 
 .section__block i {
 	position: absolute;
-	right: 2em;
+	right: var(--mobile-padding-425px);
 	bottom: 2em;
 	color: var(--secondary-color);
 }

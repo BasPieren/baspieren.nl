@@ -1,15 +1,3 @@
-#about div {
-	margin: 4em 0 0 0;
-}
-
-#about div p {
-	margin-bottom: 0.5em;
-}
-
-#about div p:last-of-type {
-	margin-bottom: 0;
-}
-
-#about div + p {
-	margin: 4em 0 0 0;
+.about {
+	margin: 0 0 2em 0;
 }

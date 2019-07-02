@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 	.header {
-		padding: 2em 4em;
+		padding: var(--mobile-padding-425px) var(--tablet-padding-768px);
 	}
 
 	.header__button {
@@ -13,9 +13,15 @@
 	}
 }
 
+@media (min-width: 1024px) {
+	.header {
+		padding: var(--tablet-padding-768px) var(--desktop-small-padding-1024px);
+	}
+}
+
 @media (min-width: 1080px) {
 	.header {
-		padding: 4em;
+		padding: var(--tablet-padding-768px) var(--desktop-large-padding-1080px);
 	}
 
 	.header__image {
@@ -24,5 +30,11 @@
 
 	.header__desktopNav {
 		width: 25%;
+	}
+}
+
+@media (min-width: 1140px) {
+	.header {
+		padding: var(--tablet-padding-768px) var(--desktop-large-padding-1440px);
 	}
 }

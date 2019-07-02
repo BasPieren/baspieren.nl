@@ -1,14 +1,21 @@
-#contact p {
-	margin: 0 0 4em 0;
+.contact__socailList {
+	margin: 4em auto 0 0;
 }
 
-#contact ul li i {
-	margin: 0 0.5em 0 0;
-	color: var(--white);
-	font-size: var(--font-size-32px);
+.contact__socailList__item {
+	margin: 0.5em 0;
 }
 
-#contact ul li a {
-	margin: 0 auto 0 0;
-	text-decoration: underline;
+.contact__socailList__item:first-of-type {
+	margin-top: 0;
+}
+
+.contact__socailList__item:last-of-type {
+	margin-bottom: 0;
+}
+
+.contact__socailList__item a i {
+	margin-right: 0.5em;
+	color: var(--secondary-color);
+	font-size: var(--font-size-40px);
 }

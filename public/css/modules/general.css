@@ -10,6 +10,17 @@ h1 {
 	display: none;
 }
 
+main {
+	background-size: 8.33% 16pt;
+	background-color: var(--darkmode-3);
+	background-image: linear-gradient(
+		to right,
+		var(--darkmode-2) 1px,
+		transparent 1px
+	);
+	background-attachment: fixed;
+}
+
 ul {
 	list-style: none;
 }
@@ -57,9 +68,12 @@ button:focus {
 
 .section {
 	position: relative;
-	padding: 2em;
-	min-height: 100vh;
-	background-color: var(--darkmode-3);
+	padding: 2em var(--mobile-padding-425px);
+	height: fit-content;
+}
+
+.section:last-of-type {
+	border: none;
 }
 
 .section__heading {
@@ -77,6 +91,7 @@ button:focus {
 	margin: 0 0 0.75em 0;
 	color: var(--white);
 	font-size: var(--font-size-16px);
+	font-weight: 300;
 }
 
 .section__text--comment {
@@ -127,4 +142,55 @@ button:focus {
 
 .span--secondary {
 	color: var(--secondary-color);
+}
+
+.link {
+	transition: all 0.2s;
+}
+
+.link:hover {
+	color: var(--secondary-color);
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4em auto 0 auto;
+	padding: 1.5em 3em;
+	width: 100%;
+	border-radius: 50px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s;
+}
+
+.button--darkmode-1 {
+	background-color: var(--darkmode-1);
+}
+
+.button--darkmode-2 {
+	background-color: var(--darkmode-2);
+}
+
+.button--darkmode-3 {
+	background-color: var(--darkmode-3);
+}
+
+.button--ghost {
+	border: 1px solid var(--secondary-color);
+	box-shadow: 0px 0px 10px 0px rgba(217, 53, 81, 1);
+}
+
+.button--ghost:hover,
+.button--ghost:active {
+	background-color: var(--secondary-color);
+	box-shadow: none;
+}
+
+.button__icon {
+	margin-right: 1em;
+	font-size: 2em;
 }

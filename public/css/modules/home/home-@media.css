@@ -4,12 +4,24 @@
 	}
 
 	.section__block i {
-		right: 4em;
+		right: var(--tablet-padding-768px);
+	}
+}
+
+@media (min-width: 1024px) {
+	.section__block i {
+		right: var(--desktop-small-padding-1024px);
 	}
 }
 
 @media (min-width: 1080px) {
 	.section__block i {
-		right: 8em;
+		right: var(--desktop-large-padding-1080px);
+	}
+}
+
+@media (min-width: 1440px) {
+	.section__block i {
+		right: var(--desktop-large-padding-1440px);
 	}
 }
